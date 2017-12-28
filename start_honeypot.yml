@@ -1,0 +1,5 @@
+- name: Start honeypot container
+  hosts: all
+  tasks:
+    - name: Starting honeypot container
+      shell: docker start honeypot
